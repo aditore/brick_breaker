@@ -8,6 +8,7 @@ while (place_meeting(x, y, other)) // run while collision detected
 	}
 move_bounce_all(true); // set bounce angle
 if speed < 12 speed += 0.1; // make ball faster
+global.player_score += 15; // add to the score
 audio_play_sound(snd_Break, 0, false);
 instance_destroy(other); // destroy the brick
 

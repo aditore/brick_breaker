@@ -4,7 +4,9 @@
   "name": "first_brick_break",
   "resources": [
     {"id":{"name":"obj_Ball","path":"objects/obj_Ball/obj_Ball.yy",},"order":9,},
+    {"id":{"name":"obj_Control","path":"objects/obj_Control/obj_Control.yy",},"order":10,},
     {"id":{"name":"spr_Brick","path":"sprites/spr_Brick/spr_Brick.yy",},"order":13,},
+    {"id":{"name":"fnt_Game","path":"fonts/fnt_Game/fnt_Game.yy",},"order":0,},
     {"id":{"name":"room0","path":"rooms/room0/room0.yy",},"order":0,},
     {"id":{"name":"obj_Bat","path":"objects/obj_Bat/obj_Bat.yy",},"order":8,},
     {"id":{"name":"obj_Brick","path":"objects/obj_Brick/obj_Brick.yy",},"order":7,},
