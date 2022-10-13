@@ -19,8 +19,25 @@ else
 		if bbox_bottom > room_height
 			{
 				// ball is leaving, so create new ball and destroy current ball
-				instance_create_layer(xstart, ystart, layer, obj_Ball);
-				instance_destroy();
+				global.player_lives -= 1;
+			if global.player_lives <= 0
+				{
+					// Check for new highscore
+					if global.player_score > global.high_score
+						{
+							global.high_score = global.player_score;
+						}
+					// Set controller state
+					with (obj_Control)
+						{
+							state ="GAMEOVER"
+						}
+				}
+			else
+				{
+				// Only create a new ball if the player has lives
+					instance_create_layer(xstart, ystart, layer, obj_Ball);
+				}
 			}
 	}
 // with each bounce, increase ball speed (has a maximum)
