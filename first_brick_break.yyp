@@ -3,6 +3,7 @@
   "resourceVersion": "1.6",
   "name": "first_brick_break",
   "resources": [
+    {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},"order":0,},
     {"id":{"name":"obj_Ball","path":"objects/obj_Ball/obj_Ball.yy",},"order":9,},
     {"id":{"name":"spr_Brick","path":"sprites/spr_Brick/spr_Brick.yy",},"order":13,},
     {"id":{"name":"room0","path":"rooms/room0/room0.yy",},"order":0,},
