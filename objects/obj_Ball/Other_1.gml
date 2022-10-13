@@ -38,6 +38,7 @@ else
 				// Only create a new ball if the player has lives
 					instance_create_layer(xstart, ystart, layer, obj_Ball);
 				}
+			instance_destroy();
 			}
 	}
 // with each bounce, increase ball speed (has a maximum)
