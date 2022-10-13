@@ -8,6 +8,7 @@
     {"id":{"name":"spr_Powers","path":"sprites/spr_Powers/spr_Powers.yy",},"order":15,},
     {"id":{"name":"obj_Control","path":"objects/obj_Control/obj_Control.yy",},"order":10,},
     {"id":{"name":"spr_Brick","path":"sprites/spr_Brick/spr_Brick.yy",},"order":13,},
+    {"id":{"name":"obj_Menu","path":"objects/obj_Menu/obj_Menu.yy",},"order":12,},
     {"id":{"name":"room0","path":"rooms/room0/room0.yy",},"order":0,},
     {"id":{"name":"obj_Bat","path":"objects/obj_Bat/obj_Bat.yy",},"order":8,},
     {"id":{"name":"obj_Brick","path":"objects/obj_Brick/obj_Brick.yy",},"order":7,},
@@ -16,6 +17,7 @@
     {"id":{"name":"spr_Bat","path":"sprites/spr_Bat/spr_Bat.yy",},"order":12,},
     {"id":{"name":"snd_Click","path":"sounds/snd_Click/snd_Click.yy",},"order":2,},
     {"id":{"name":"spr_Ball","path":"sprites/spr_Ball/spr_Ball.yy",},"order":14,},
+    {"id":{"name":"room_Menu","path":"rooms/room_Menu/room_Menu.yy",},"order":1,},
     {"id":{"name":"snd_Break","path":"sounds/snd_Break/snd_Break.yy",},"order":1,},
   ],
   "Options": [
@@ -30,6 +32,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"room_Menu","path":"rooms/room_Menu/room_Menu.yy",},},
     {"roomId":{"name":"room0","path":"rooms/room0/room0.yy",},},
   ],
   "Folders": [
